@@ -81,7 +81,7 @@
         <collision>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <geometry>
-                <cylinder radius="0.05" length="0.04"/>
+                <sphere radius="0.05"/>
             </geometry>
         </collision>
         <xacro:inertial_cylinder mass="0.1" radius="0.05" length="0.04">
@@ -113,7 +113,7 @@
         <collision>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <geometry>
-                <cylinder radius="0.05" length="0.04"/>
+                <sphere radius="0.05"/>
             </geometry>
         </collision>
         <xacro:inertial_cylinder mass="0.1" radius="0.05" length="0.04">
